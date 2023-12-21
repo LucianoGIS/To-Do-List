@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lista de Tarefas</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <form id="taskForm">
+      <label for="dueDate">Data de Vencimento:</label>
+      <input type="date" id="dueDate" required>
+      <label for="taskDescription">Descrição da Tarefa:</label>
+      <input type="text" id="taskDescription" required>
+      <button type="button" onclick="addTask()">Adicionar Tarefa</button>
+      <button onclick="filterIncompleteTasks()">Filtrar Tarefas Incompletas</button>
+    </form>
+    <div id="tasksContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
