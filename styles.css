@@ -1,17 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2c3e50; /* Cor de fundo moderna */
+    background-color: #2c3e50;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: #ecf0f1; /* Cor do texto para contrastar com o fundo */
+    color: #ecf0f1;
   }
   
   .container {
-    background-color: #34495e; /* Cor de fundo do contêiner principal */
+    background-color: #34495e;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -24,8 +24,8 @@ body {
   }
   
   h1 {
-    margin: 0; /* Removendo margens padrão do navegador */
-    text-align: center; /* Centralizando o texto */
+    margin: 0;
+    text-align: center;
   }
   
   
@@ -60,17 +60,17 @@ body {
   }
   
   button[type="button"] {
-    background-color: #2ecc71; /* Cor de fundo específica para botões tipo "button" */
+    background-color: #2ecc71;
   }
   
   button[type="button"]:hover {
-    background-color: #27ae60; /* Cor de fundo específica para botões tipo "button" ao passar o mouse */
+    background-color: #27ae60;
   }
   
   .task {
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #2c3e50; /* Cor da borda das tarefas */
+    border: 1px solid #2c3e50;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
@@ -78,12 +78,12 @@ body {
   }
   
   .task.completed {
-    background-color: #ef2c0a; /* Cor de fundo das tarefas completadas */
-    border-color: #2ecc71; /* Cor da borda das tarefas completadas */
+    background-color: #ef2c0a;
+    border-color: #2ecc71;
   }
   
   .task.overdue {
-    color: #e74c3c; /* Cor do texto para tarefas vencidas */
+    color: #e74c3c;
   }
   
   .task-status {
